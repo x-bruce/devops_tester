@@ -16,3 +16,9 @@ HEADERS   = adddialog.h \
 # install
 target.path = $$[QT_INSTALL_EXAMPLES]/widgets/itemviews/addressbook
 INSTALLS += target
+
+DISTFILES += \
+    azures-pipelines.yml \
+    ci/linux.yml \
+    ci/macos.yml \
+    ci/windows.yml
